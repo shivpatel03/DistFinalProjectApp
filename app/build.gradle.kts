@@ -54,6 +54,12 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.wear.ambient)
 
+    implementation(libs.wear.compose.material)
+    implementation(libs.wear.compose.foundation)
+    implementation(libs.wear)
+    implementation(libs.activity.compose)
+
+
     // Compose dependencies
     implementation(platform(libs.compose.bom))
     implementation(libs.compose.ui)
